@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IRFP250N")(type "KiCad")(uri "${KIPRJMOD}/IRFP250N/IRFP250N.kicad_sym")(options "")(descr ""))
+  (lib (name "Blackpill_mia2")(type "KiCad")(uri "${KIPRJMOD}/Blackpill_mia2.kicad_sym")(options "")(descr ""))
+)
