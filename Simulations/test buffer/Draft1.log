@@ -1,0 +1,76 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\ONEDRIVE\OneDrive - Università di Napoli Federico II\FILE UNI\LTspice_circuiti\DCLoad2\test buffer\Draft1.asc
+Start Time: Mon Aug 11 11:29:37 2025
+solver = Normal
+Maximum thread count: 12
+
+
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q1
+Model:    2n2222
+Ib:       1.05e-02
+Ic:      -4.16e-02
+Vbe:     -4.97e+00
+Vbc:      8.61e-01
+Vce:     -5.84e+00
+BetaDC:  -3.98e+00
+Gm:      -1.21e+00
+Rpi:      1.00e+12
+Rx:       1.00e+01
+Ro:       8.30e-01
+Cbe:      1.27e-11
+Cbc:      1.21e-07
+Cjs:      0.00e+00
+BetaAC:  -1.21e+12
+Cbx:      0.00e+00
+Ft:       1.58e+06
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       2n7002
+Id:         -9.78e-02
+Vgs:         4.55e+00
+Vds:        -2.23e-01
+Vth:         1.60e+00
+Gm:          3.18e-02
+Gds:         6.34e-01
+Cgs:         5.00e-11
+Cgd:         8.00e-11
+Cbody:       5.67e-11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tnom = 27
+temp = 27
+method = modified trap
+Total elapsed time: 0.249 seconds.
+

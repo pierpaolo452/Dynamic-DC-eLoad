@@ -1,0 +1,63 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\ONEDRIVE\OneDrive - Università di Napoli Federico II\FILE UNI\LTspice_circuiti\DCLoad2\test buffer\Draft3.asc
+Start Time: Tue Aug 12 20:25:51 2025
+solver = Normal
+Maximum thread count: 12
+
+
+
+WARNING: Less than two connections to node nc_01.  This node is used by rload.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       irf530
+Id:          5.14e+00
+Vgs:         4.86e+00
+Vds:         2.25e+02
+Vth:         4.00e+00
+Gm:          1.29e+01
+Gds:         1.58e-02
+Cgs:         2.00e-10
+Cgd:         2.61e-10
+Cbody:       2.66e-11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tnom = 27
+temp = 27
+method = modified trap
+Total elapsed time: 0.206 seconds.
+

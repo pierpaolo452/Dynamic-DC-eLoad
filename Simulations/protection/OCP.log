@@ -1,0 +1,46 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\ONEDRIVE\OneDrive - Università di Napoli Federico II\FILE UNI\LTspice_circuiti\DCLoad2\protection\OCP.asc
+Start Time: Sun Sep 22 15:38:25 2024
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Less than two connections to node -12v.  This node is used by v4.
+WARNING: Less than two connections to node 5v.  This node is used by v11.
+WARNING: Less than two connections to node -vcc.  This node is used by v15.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Changing Tseed to 1.46484e-09
+Heightened Def Con from 0.000293761 to 0.000293762
+Heightened Def Con from 0.00199994 to 0.00199994
+Heightened Def Con from 0.009 to 0.009
+Heightened Def Con from 0.0115 +++++++++++++to 0.0115
+Heightened Def Con from 0.0115 to 0.0115
+Heightened Def Con from 0.0115008 to 0.0115008
+Heightened Def Con from 0.0117 to 0.0117
+Heightened Def Con from 0.0117 to 0.0117
+Heightened Def Con from 0.0117004 to 0.0117004
+Heightened Def Con from 0.0123006 +to 0.0123006
+Heightened Def Con from 0.0123006 +to 0.0123006
+Heightened Def Con from 0.0123006 to 0.0123006
+Total elapsed time: 0.463 seconds.
+

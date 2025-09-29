@@ -1,0 +1,153 @@
+Circuit: * C:\Users\pierp\OneDrive - Università di Napoli Federico II\FILE UNI\LTspice_circuiti\DCLoad2\Transfer Function\Transfer function.asc
+
+V2: both pins shorted together -- ignoring.
+B1: both pins shorted together -- ignoring.
+V3: both pins shorted together -- ignoring.
+Msb_dac: both pins shorted together -- ignoring.
+Msb_dac3: both pins shorted together -- ignoring.
+Msb_dac7: both pins shorted together -- ignoring.
+WARNING: Node NC_01 is floating.
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by C7.
+WARNING: Less than two connections to node NC_02.  This node is used by C8.
+WARNING: Less than two connections to node N014.  This node is used by E1.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.49741
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.51716
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u15:p    d:u15:ln    d:u15:lp     d:u15:e     d:u15:c
+Model:   u15:dx      u15:dx      u15:dx      u15:dx      u15:dx
+Id:     -2.40e-09   -2.50e-09   -2.50e-09   -9.80e-10   -9.80e-10
+Vd:     -2.40e+01   -2.50e+01   -2.50e+01   -9.80e+00   -9.80e+00
+Req:     1.00e+10    1.00e+10    1.00e+10    1.00e+10    1.00e+10
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u14:p    d:u14:ln    d:u14:lp     d:u14:e     d:u14:c
+Model:   u14:dx      u14:dx      u14:dx      u14:dx      u14:dx
+Id:     -2.40e-09   -2.32e-09   -2.68e-09   -7.96e-10   -1.16e-09
+Vd:     -2.40e+01   -2.32e+01   -2.68e+01   -7.96e+00   -1.16e+01
+Req:     1.00e+10    1.00e+10    1.00e+10    1.00e+10    1.00e+10
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u13:p    d:u13:ln    d:u13:lp     d:u13:e     d:u13:c
+Model:   u13:dx      u13:dx      u13:dx      u13:dx      u13:dx
+Id:     -2.40e-09   -2.68e-09   -2.32e-09   -1.16e-09   -7.96e-10
+Vd:     -2.40e+01   -2.68e+01   -2.32e+01   -1.16e+01   -7.96e+00
+Req:     1.00e+10    1.00e+10    1.00e+10    1.00e+10    1.00e+10
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u12:4     d:u12:3     d:u12:2     d:u12:1
+Model:   u12:md3     u12:md2     u12:md1     u12:md
+Id:     -1.04e-09   -1.04e-09   -9.39e-10   -2.50e-09
+Vd:     -9.39e+00   -9.39e+00   -9.39e+00   -1.20e+01
+Req:     1.00e+10    1.00e+10    1.00e+10    1.00e+10
+CAP:     0.00e+00    0.00e+00    2.70e-10    3.34e-10
+
+                        --- Bipolar Transistors ---
+Name:       q12         q10         q11         q9
+Model:    2n3906      2n3906      2n3904      2n3904
+Ib:       3.68e-10    1.98e-10   -2.88e-11    4.63e-04
+Ic:      -3.00e-10   -1.11e-09   -8.88e-15    9.68e-11
+Vbe:      6.80e-01   -2.94e-01   -2.88e-01    6.86e-01
+Vbc:      3.00e+00    2.31e+00    4.84e-07    6.80e-01
+Vce:     -2.32e+00   -2.61e+00   -2.88e-01    5.88e-03
+BetaDC:  -8.15e-01   -5.60e+00    3.08e-04    2.09e-07
+Gm:       1.53e-24    3.39e-08   -3.87e-13    1.75e-02
+Rpi:      1.00e+10    3.76e+09    1.00e+10    3.40e+03
+Rx:       2.00e+01    2.00e+01    2.00e+01    2.00e+01
+Ro:       2.60e+27    1.17e+11    2.59e+12    1.44e+01
+Cbe:      8.08e-12    1.18e-11    7.19e-12    4.31e-11
+Cbc:      2.65e-12    2.83e-12    4.00e-12    1.76e-08
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.53e-14    1.28e+02   -3.87e-03    5.95e+01
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       1.48e+00    3.69e+02    1.42e+00    1.58e+05
+
+                        --- JFET Transistors ---
+Name:    j:u15:2     j:u15:1     j:u14:2     j:u14:1     j:u13:2
+Model:   u15:jx      u15:jx      u14:jx      u14:jx      u13:jx
+Id:     -9.77e-05   -9.77e-05   -9.77e-05   -9.77e-05   -9.77e-05
+Vgs:     3.99e-01    3.99e-01    3.99e-01    3.99e-01    3.99e-01
+Vds:    -1.13e+01   -1.13e+01   -1.13e+01   -1.13e+01   -1.13e+01
+Gm:      3.25e-04    3.25e-04    3.25e-04    3.25e-04    3.25e-04
+Gds:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    j:u13:1
+Model:   u13:jx
+Id:     -9.77e-05
+Vgs:     3.99e-01
+Vds:    -1.13e+01
+Gm:      3.25e-04
+Gds:     0.00e+00
+Cgs:     0.00e+00
+Cgd:     0.00e+00
+
+                        --- MOSFET Transistors ---
+Name:        m:u12:1
+Model:       u12:mm
+Id:          2.40e-09
+Vgs:         2.61e+00
+Vds:         1.20e+01
+Vbs:         0.00e+00
+Vth:         3.79e+00
+Vdsat:       0.00e+00
+Gm:          0.00e+00
+Gds:         0.00e+00
+Gmb:         0.00e+00
+Cbd:         0.00e+00
+Cbs:         0.00e+00
+Cgsov:       1.67e-09
+Cgdov:       7.65e-11
+Cgbov:       0.00e+00
+Cgs:         0.00e+00
+Cgd:         0.00e+00
+Cgb:         0.00e+00
+
+
+
+Date: Tue Mar 05 23:30:31 2024
+Total elapsed time: 0.180 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1622
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 125
+fillins = 315
+solver = Normal
+Matrix Compiler1:    1217 opcodes
+Matrix Compiler2: 16.04 KB object code size  1.5/1.7/[0.9]
+

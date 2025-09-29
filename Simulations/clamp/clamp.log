@@ -1,0 +1,40 @@
+Circuit: * C:\Users\pierp\OneDrive - Università di Napoli Federico II\FILE UNI\LTspice_circuiti\DCLoad2\clamp\clamp.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.08884
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.0762
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sat Feb 24 12:47:54 2024
+Total elapsed time: 0.306 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 9702
+traniter = 8286
+tranpoints = 2279
+accept = 1895
+rejected = 384
+matrix size = 65
+fillins = 76
+solver = Normal
+Matrix Compiler1: 7.54 KB object code size  1.1/0.5/[0.4]
+Matrix Compiler2: 6.79 KB object code size  0.6/0.7/[0.4]
+
